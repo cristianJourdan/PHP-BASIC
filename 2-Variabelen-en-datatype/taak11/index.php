@@ -7,12 +7,8 @@
 </head>
 <body>
     <?php
-    echo "test";
-    $voornaam1_ = "peter";
-    $voornaam2_ = "peter2";
-    $voornaam3_ = "peter3";
-    echo "<ul><li>$voornaam1_</li><li>$voornaam2_</li><li>$voornaam3_</li>  </ul>"
-
+    $a = 32;
+    echo var_dump($a) . "<br>";
      ?>
 </body>
 </html>

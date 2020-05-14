@@ -8,11 +8,9 @@
 <body>
     <?php
     echo "test";
-    $voornaam1_ = "peter";
-    $voornaam2_ = "peter2";
-    $voornaam3_ = "peter3";
-    echo "<ul><li>$voornaam1_</li><li>$voornaam2_</li><li>$voornaam3_</li>  </ul>"
-
+    $voornaam_ = "cristian jourdan";
+    $leeftijd_ = 16;
+    echo "jouw naam is".$voornaam_."en je bent" .$leeftijd_> "jaar oud.";
      ?>
 </body>
 </html>

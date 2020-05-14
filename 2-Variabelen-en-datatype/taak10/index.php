@@ -8,11 +8,10 @@
 <body>
     <?php
     echo "test";
-    $voornaam1_ = "peter";
-    $voornaam2_ = "peter2";
-    $voornaam3_ = "peter3";
-    echo "<ul><li>$voornaam1_</li><li>$voornaam2_</li><li>$voornaam3_</li>  </ul>"
-
+    $item_ = "w";
+    $item_ .= "u";
+    $item_ .= "y";
+    echo "<ul><li>$item_</li><li>$item_</li><li>$item_</li>  </ul>"
      ?>
 </body>
 </html>

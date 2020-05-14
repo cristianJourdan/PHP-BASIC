@@ -10,7 +10,7 @@
     echo "test";
     $voornaam_ = "cristian Jourdan";
     $leeftijd_ = 16;
-    echo "mijn naam is $voornaam_ en ik ben $leeftijd_ jaar oud";/;
+    echo "mijn naam is" .$voornaam_ . "en ik ben" .$leeftijd_. "jaar oud";/;
 
      ?>
 </body>
