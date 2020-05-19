@@ -8,10 +8,9 @@
 <body>
     <?php
     echo "test";
-    $_myMovies_ = ["spiderman","frozen","batman"]
+    $getal_ += 5;
 
-    echo "<ul> <li> $_myMovies_[0] </li><li>$_myMovies_[1]</li><li>$_myMovies_[2]</li></ul>";
-
+    echo $getal
      ?>
 </body>
 </html>

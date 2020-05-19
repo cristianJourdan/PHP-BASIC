@@ -7,11 +7,12 @@
 </head>
 <body>
     <?php
-    echo "test";
-    $_myMovies_ = ["spiderman","frozen","batman"]
-
-    echo "<ul> <li> $_myMovies_[0] </li><li>$_myMovies_[1]</li><li>$_myMovies_[2]</li></ul>";
-
+    function zoekletter(){
+    $woordje ="hallo";
+    $zinnetje = "mooie blauw planeet"
+    $helezin = $woordje +$zinnetje;
+    echo $helezin;
+    }
      ?>
 </body>
 </html>

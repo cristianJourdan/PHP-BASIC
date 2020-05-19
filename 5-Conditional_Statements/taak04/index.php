@@ -7,11 +7,15 @@
 </head>
 <body>
     <?php
-    echo "test";
-    $_myMovies_ = ["spiderman","frozen","batman"]
-
-    echo "<ul> <li> $_myMovies_[0] </li><li>$_myMovies_[1]</li><li>$_myMovies_[2]</li></ul>";
-
+    $prodcten = 28;
+    if($producten < 10) {
+        $prijs = 1.50;
+    } elseif($producten < 20) {
+        $prijs = 1.25;
+    } else {
+        $prijs = 1.00;
+    }
+    echo $prijs;
      ?>
 </body>
 </html>
