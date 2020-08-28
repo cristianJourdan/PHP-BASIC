@@ -25,4 +25,34 @@ function getAge()
     echo $leeftijd;
 }
 
+function getKorting(){
+    $leeftijd = $_GET['leeftijd'];
+    
+    switch ($leeftijd) {
+        case $leeftijd > 19:
+          echo "0,00";
+          break;
+        case 19:
+          echo "0,19";
+          break;
+        case 18:
+          echo "0,18";
+          break;
+        case 17:
+          echo "0,17";
+          break;
+        case 16:
+          echo "0,16";
+          break;
+        case $leeftijd < 16:
+          echo "1,00";
+          break;
+        default:
+          echo "Uw Korting";
+      }
+}function getTotaal(){
+    $productnummer = $_GET['productnummer'];
+    $aantalProd = $_GET['aantal'];
+    echo $prijs[$productnummer] * $aantalProd;
+}
 ?>
