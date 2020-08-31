@@ -8,6 +8,7 @@
 
     <?php include "includes/functions.php"?>
   </head>
+
     <form action="index.php" method="get"><!-- dit laten staan! -->
 
     <p>Op deze website kun je checken welk datatype je hebt ingevoerd.</p>

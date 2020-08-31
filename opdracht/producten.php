@@ -8,7 +8,7 @@
 
     <?php 
     $producten = array("Appels","Peren","Bananen","kiwi","sla","Bosui","Water","fanta","Mango","Aardappel");
-    $prijs = array(0.20,0.12,0.30,0.40,0.20,0.15,1.20,0.80,0.60,0.20);
+    $prijs = array(0.20,0.12,0.10,0.30,0.20,0.15,1.20,1.80,0.90,0.20);
     
     include "includes/functions.php"?>
 
@@ -42,8 +42,8 @@
     <p>Vul je leeftijd in voor korting</p>
     <p><label>leeftijd: </label><input type="text" name="leeftijd"></p><!-- dit laten staan! -->
     <p><button type="submit" name="submit">Bereken totaal</button></p><!-- dit laten staan! -->
-    <p>voor <?php getAmount(); ?> x het product: <?php getProductNr(); ?> betaal je:</p>
-    <p>je bent <?php getAge(); ?> je korting is: </p>
+    <p>voor <?php getAmount(); ?> x het product: <?php getProductNr(); ?> betaal je:<?php getTotaal();?> </p>
+    <p>je bent <?php getAge(); ?> je korting is: <?php getKorting(); ?> </p>
     <div>
     </div>
 

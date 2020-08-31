@@ -51,6 +51,7 @@ function getKorting(){
           echo "Uw Korting";
       }
 }function getTotaal(){
+  $prijs = array(0.20,0.12,0.30,0.40,0.20,0.15,1.20,0.80,0.60,0.20);
     $productnummer = $_GET['productnummer'];
     $aantalProd = $_GET['aantal'];
     echo $prijs[$productnummer] * $aantalProd;
